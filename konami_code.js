@@ -20,9 +20,6 @@ function onKeyDownHandler(e) {
   else {
     index = 0
   }
-  //if(index != 0) {
-  //  alert("Correct!")
-  //}
   if(index === codes.length) {
     index = 0
     alert("Hurray!")
@@ -31,9 +28,6 @@ function onKeyDownHandler(e) {
 
 function init() {
   // your code here
-  //document.onkeydown = onKeyDownHandler
   var main = document.querySelector("body")
   main.addEventListener("keydown", onKeyDownHandler, false)
-  //alert("yalaaahwiiii")
-
 }
