@@ -48,9 +48,9 @@ function onKeyDownHandler(e) {
 
 function init() {
   // your code here
-  document.onkeydown = onKeyDownHandler
-  //var main = document.getElementsByTagName("html")
-  //main.addEventListener("keydown", onKeyDownHandler, false)
+  //document.onkeydown = onKeyDownHandler
+  var main = document.querySelector("body")
+  main.addEventListener("keydown", onKeyDownHandler, false)
   //alert("yalaaahwiiii")
 
 }
