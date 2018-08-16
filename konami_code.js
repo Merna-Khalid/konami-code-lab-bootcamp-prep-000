@@ -14,8 +14,7 @@ let index = 0
 
 function onKeyDownHandler(e) {
   const key = e.key
-  alert(key)
-  if(key === codes[0] && (index === 0 || index === 1)) {
+  if(key === codes[index] && (index === 0 || index === 1)) {
     index++
   }
   else if(key === codes[2] && (index === 2 || index === 3)) {
