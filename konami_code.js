@@ -36,12 +36,11 @@ function onKeyDownHandler(e) {
   else {
     index = 0
   }
-
+  if(index != 0) {
+    alert("Correct!")
+  }
   if(index === codes.length) {
     index = 0
-  }
-  else if(index != 0) {
-    alert("Correct!")
   }
 }
 
